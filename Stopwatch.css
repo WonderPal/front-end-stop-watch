@@ -1,0 +1,67 @@
+
+body{
+		
+	background-color: whitesmoke;
+	background-image: url('stop.jpg');
+
+}
+.Main {
+	background-color: lightblue;
+    width: 60%;
+    min-width: 800px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.220);
+    
+}
+
+.Display{
+	
+	position: relative;
+	 width: 22%;
+    background: whitesmoke;
+    border: 1px solid black;
+    left: 36%;
+    margin-top: 25px;
+    height: 30%;
+    position: relative;
+     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+
+.settings{
+	width: 40%;
+  margin-top: 2%;
+  margin-left: 29%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.settings button{
+	width: 50px;
+    height: 20px;
+    background-color: whitesmoke;
+    text-decoration: blink;
+    text-decoration-color: black ;
+    border: 1px solid black;
+    
+}
+
+
+
+.settings  button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+
+	
